@@ -30,7 +30,21 @@
                 <div class="section_header">Services</div>
                 <!-- <div class="subsec_header">Editing</div> -->
                 
-                <div class="subsec_header">Paper Reviews</div>
+                <div class="subsec_header">Program Committees</div>
+
+                {% for pc in service_pcs %}
+                <div class="experience">
+                    <div class="exp_title">
+                        {{pc.title}}
+                    </div>
+                    <div class="exp_date">
+                        {{pc.date}}
+                    </div>
+                </div>
+                {%- endfor %}
+
+
+                <div class="subsec_header">Peer Reviews</div>
 
                 {% for pr in service_prs %}
                 <div class="experience">
@@ -42,7 +56,8 @@
                     </div>
                 </div>
                 {%- endfor %}
-                
+               
+
 
                 <div class="subsec_header">Student Organizations</div>
 
@@ -57,20 +72,9 @@
                 </div>
                 {%- endfor %}            
 
-<!--                 <div class="subsec_header">Program Committees</div>
 
-                {% for pc in service_pcs %}
-                <div class="experience">
-                    <div class="exp_title">
-                        {{pc.title}}
-                    </div>
-                    <div class="exp_date">
-                        {{pc.date}}
-                    </div>
-                </div>
-                {%- endfor %}
 
-                <div class="subsec_header">External/Sub-session Program Committees</div>
+ <!--           <div class="subsec_header">External/Sub-session Program Committees</div>
 
                 {% for pc in service_epcs %}
                 <div class="experience">
