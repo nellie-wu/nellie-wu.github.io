@@ -1,8 +1,21 @@
 [
+   
+    {
+        "title": "IEEE Journal of Solid-State Circuits (JSSC)",
+        "date": "2022"
+    },
+    {
+        "title": "IEEE Transactions on Very Large Scale Integration Systems (VLSI)",
+        "date": "2022, 2023, 2026"
+    },
     {
         "title": "IEEE International Symposium on High-Performance Computer Architecture (HPCA)",
         "date": "2026"
     }, 
+    {
+        "title": "IEEE International Symposium on Microarchitecture (MICRO)",
+        "date": "2026"
+    },
     {
         "title": "Transactions on Computers",
         "date": "2023, 2025"
@@ -13,7 +26,7 @@
     }, 
     {
         "title": "IEEE Transactions on Circuits and Systems",
-        "date": "2025"
+        "date": "2025, 2026"
     },  
 
     {
@@ -24,18 +37,12 @@
         "title": "IEEE Computer Architecture Letters (CAL)",
         "date": "2022, 2023"
     },   
-
-    {
-        "title": "IEEE Transactions on Very Large Scale Integration Systems (VLSI)",
-        "date": "2022, 2023"
-    }, 
-    {
-        "title": "IEEE Journal of Solid-State Circuits (JSSC)",
-        "date": "2022"
-    },  
     {
         "title": "ACM Symposium on Parallelism in Algorithms and Architectures (SPAA)",
         "date": "2021"
+    },
+    {   "title": "Computing in Science and Engineering",
+        "date": "2026"
     }
     
 ]
